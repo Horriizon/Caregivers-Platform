@@ -1,161 +1,545 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Caregiver Platform</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Zhangir</title>
+  <link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
+
 <body>
-     <div class="hero">
-        <div class="login_form">
-            <h1>Login</h1>
-            <form class="input_box">
-                <input type="text" class="field" placeholder="User Name">
-                <input type="password" class="field" maxlength="10" placeholder="Password">
-                <input type="checkbox" class="check_box"><p>Remember Password</p>
-                <button type="submit" class="submit_btn">Login</button>
-                <div class="social_icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-google"></i>
-                </div>
-                <div class="tag">
-                    <span>New User?</span>
-                    <a href="signup.html">Sign Up</a>
-                </div>
-            </form>
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container">
+        <div class="top_contact-container">
+          <div class="tel_container">
+            <a href="">
+              <img src="images/telephone-symbol-button.png" alt=""> Call : +7 707 147 2027
+            </a>
+          </div>
+          <div class="social-container">
+            <a href="">
+              <img src="images/fb.png" alt="" class="s-1">
+            </a>
+            <a href="">
+              <img src="images/twitter.png" alt="" class="s-2">
+            </a>
+            <a href="">
+              <img src="images/instagram.png" alt="" class="s-3">
+            </a>
+          </div>
         </div>
+      </div>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="">
+            <span>
+              Caregivers
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="medicine.html"> Medicine </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="buy.html"> Online Buy </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html"> News </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+              <a href="#" id="searchTrigger">Search</a>
+              <form class="form-inline ">
+                <input type="search" placeholder="Search">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+              <form id="searchForm" action="/search" method="GET" style="display: none;">
+                <label for="caregiving_type">Caregiving Type:</label>
+                <input type="text" id="caregiving_type" name="caregiving_type">
+    
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+    
+                <button type="submit">Search</button>
+            </form>
+              <div class="login_btn-contanier ml-0 ml-lg-5">
+                <a href="dan.html">
+                  <img src="images/user.png" alt="">
+                  <span>
+                    Login
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+    <section class=" slider_section position-relative">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="img-box">
+                    <img src="images/fak.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="detail-box">
+                    <h1>
+                      Welcome To Our <br>
+                      <span>
+                        Caregivers
+                       </span>
+
+                    </h1>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="img-box">
+                    <img src="images/ama.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="detail-box">
+                    <h1>
+                      Welcome To Our <br>
+                      <span>
+                        Caregivers
+                      </span>
+
+                    </h1>
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="img-box">
+                    <img src="images/ima.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="detail-box">
+                    <h1>
+                      Welcome To Our <br>
+                      <span>
+                        Caregivers 
+                      </span>
+
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+  </div>
+  <form action="/post-job" method="POST">
+    <label for="caregiving-type">Caregiving Type:</label>
+    <select id="caregiving-type" name="caregiving-type">
+      <option value="Elderly Care">Elderly Care</option>
+      <option value="Baby Sitter">Baby Sitter</option>
+      <option value="Special Needs Care">Special Needs Care</option>
+    </select>
+  
+    <label for="person-age">Age of Person Requiring Care:</label>
+    <input type="number" id="person-age" name="person-age" min="1">
+  
+    <label for="preferred-time-intervals">Preferred Time Intervals:</label>
+    <textarea id="preferred-time-intervals" name="preferred-time-intervals"></textarea>
+  
+    <label for="frequency-of-service">Frequency of Service:</label>
+    <select id="frequency-of-service" name="frequency-of-service">
+      <option value="weekly">Weekly</option>
+      <option value="daily">Daily</option>
+      <option value="weekends-only">Weekends Only</option>
+    </select>
+  
+    <label for="other-requirements">Other Requirements:</label>
+    <textarea id="other-requirements" name="other-requirements"></textarea>
+  
+    <button type="submit">Post Job Advertisement</button>
+  </form>
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="custom_heading-container ">
+        <h2>
+          About Us
+        </h2>
+      </div>
+
+      <div class="img-box">
+        <img src="images/about-medicine.png" alt="">
+      </div>
+      <div class="detail-box">
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+          opposed to using 'Content here, content here', making it
+        </p>
+        <div class="d-flex justify-content-center">
+          <a href="">
+            Read More
+          </a>
+        </div>
+      </div>
     </div>
-    <style>
-        .hero{
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/namn.gif);
-    background-size: cover;
-    background-position: center;
-}
+  </section>
 
-.hero .login_form{
-    width: 400px;
-    height: 490px;
-    background-image: url(images/kol.jpeg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
-}
 
-.hero .login_form h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    margin-bottom: 45px;
-}
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="custom_heading-container ">
+        <h2>
+          What is says our clients
+        </h2>
+      </div>
+      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="client_container layout_padding2">
+              <div class="client_detail">
+                <p>
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in
+                  some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+              </div>
+              <div class="client_box ">
+                <div class="img-box">
+                  <img src="images/client.png " alt="">
+                </div>
+                <div class="name">
+                  <h5>
+                    Randomised
+                  </h5>
+                  <h6>
+                    <span>
+                      Client
+                    </span>
+                    <img src="images/quote.png" alt="">
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="client_container layout_padding2">
+              <div class="client_detail">
+                <p>
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in
+                  some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+              </div>
+              <div class="client_box ">
+                <div class="img-box">
+                  <img src="images/client.png " alt="">
+                </div>
+                <div class="name">
+                  <h5>
+                    Randomised
+                  </h5>
+                  <h6>
+                    <span>
+                      Client
+                    </span>
+                    <img src="images/quote.png" alt="">
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="client_container layout_padding2">
+              <div class="client_detail">
+                <p>
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in
+                  some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+              </div>
+              <div class="client_box ">
+                <div class="img-box">
+                  <img src="images/client.png " alt="">
+                </div>
+                <div class="name">
+                  <h5>
+                    Randomised
+                  </h5>
+                  <h6>
+                    <span>
+                      Client
+                    </span>
+                    <img src="images/quote.png" alt="">
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-.hero .login_form h1::after{
-    content: '';
-    width: 20%;
-    height: 3px;
-    background: #facc22;
-    display: block;
-    position: absolute;
-    margin-top: 60px;
-    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
-}
 
-.hero .login_form .input_box{
-    width: 330px;
-    margin: 0 auto;
-}
+    </div>
+  </section>
 
-.hero .login_form .input_box .field{
-    width: 100%;
-    border-bottom: 1px solid #919191;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    margin-bottom: 20px;
-    padding: 10px 0;
-    outline: none;
-    background: none;
-    font-size: 15px;
-}
+  <section class="contact_section">
+    <div class="container">
+      <div class="row">
+        <div class="custom_heading-container ">
+          <h2>
+            Request A call back
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="container layout_padding2">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="form_contaier">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputName1">Name</label>
+                <input type="text" class="form-control" id="exampleInputName1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputNumber1">Phone Number</label>
+                <input type="text" class="form-control" id="exampleInputNumber1">
+              </div>
 
-.hero .login_form .input_box .check_box{
-    margin: 25px 0;
-    accent-color: #facc22;
-    cursor: pointer;
-}
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+              </div>
+              <div class="form-group ">
+                <label for="inputState">Select medicine</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Medicine 1</option>
+                  <option selected>Medicine 2</option>
+                  <option selected>Medicine 3</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputMessage">Message</label>
+                <input type="text" class="form-control" id="exampleInputMessage">
+              </div>
+              <button type="submit" class="">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="detail-box">
+            <h3>
+              Get Now Medicines
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.hero .login_form .input_box p{
-    position: relative;
-    left: 20px;
-    bottom: 40px;
-    width: 50%;
-    color: #434343;
-}
 
-.hero .login_form .input_box .submit_btn{
-    outline: none;
-    border: none;
-    background: #facc22;
-    padding: 10px 20px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    font-size: 18px;
-    cursor: pointer;
-}
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h4>
+              Contact
+            </h4>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/telephone-symbol-button.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  +01 123567894
+                </h6>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/email.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  demo@gmail
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_menu">
+            <h4>
+              Menu
+            </h4>
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="medicine.html"> Medicine </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="buy.html"> Online Buy </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info_news">
+            <h4>
+              newsletter
+            </h4>
+            <form action="">
+              <input type="text" placeholder="Enter Your email">
+              <div class="d-flex justify-content-center justify-content-end mt-3">
+                <button>
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.hero .login_form .social_icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 35px 0;
-}
 
-.hero .login_form .social_icon i{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 0 5px;
-    line-height: 30px;
-    font-size: 15px;
-    text-align: center;
-    background: #facc22;
-    color: #434343;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
 
-.hero .login_form .social_icon i:hover{
-    cursor: pointer;
-    transition: ease-in-out 0.3s;
-    transform: translateY(-5px);
-}
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2019 All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
 
-.hero .login_form .tag{
-    margin: 25px auto 0 auto;
-    width: 150px;
-}
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+  </script>
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: [],
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    $(".owl-2").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: [],
+      autoplay: true,
 
-.hero .login_form .tag span{
-    font-size: 15px;
-}
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+    var searchTrigger = document.getElementById('searchTrigger');
 
-.hero .login_form .tag a{
-    font-size: 15px;
-    margin-left: 5px;
-    color: #d0a404;
-    text-decoration: none;
-}
-</style>
+var searchForm = document.getElementById('searchForm');
+
+searchTrigger.addEventListener('click', function(event) {
+    event.preventDefault(); 
+    
+    searchForm.style.display = 'block';
+    searchTrigger.style.display = 'none';
+});
+  </script>
 </body>
+
 </html>
